@@ -116,30 +116,7 @@ Và đây là lý do tính-đúng phải nằm ở suy dẫn ([R]) chứ không 
 
 Mỗi vòng làm việc diễn ra như sau: **owner đặt H** — nêu câu hỏi cùng nguyên tắc liên quan; **AI đưa ra R** theo khuôn ở §4; rồi **AI trả H về** — chỉ rõ chỗ owner phải quyết và dữ liệu nó còn thiếu, chứ *không tự quyết*. Tiếp đó **owner phán xét** (bổ sung, phê chuẩn hoặc bác bỏ), **đối chiếu Scoreboard** (việc này có đúng mục tiêu WIG không; nếu không thì hoãn lại), và cuối cùng **owner chốt** — đứng tên sau quyết định.
 
-Ví dụ, AI trả lời cho câu hỏi *"có nên xây SSO/SAML cho gói Personal ngay từ Phase 1 không?"*:
-
-```
-[H] Khuyến nghị: KHÔNG xây ở Phase 1.
-    Việc của owner:
-    - Phán xét: có chấp nhận giả định "người dùng gói Personal không cần SAML" không? [rủi ro cao]
-    - Bổ sung: đã có pilot nào hỏi về SAML chưa? (tôi đang thiếu dữ liệu này)
-
-[R] Khung suy luận: P.6 (gói Personal tự phục vụ) → SAML là nhu cầu của Enterprise
-    → P.8 (kích hoạt theo tín hiệu) → chưa có tín hiệu nào → hoãn.
-    Khoảng trống: nếu ICP của gói Personal thật ra là các đội IT nhỏ → giả định trên sai.
-```
-
 Điểm mấu chốt nằm ở bước "trả H về": AI **không** tự nói "chắc người dùng không cần đâu" — nó *trả* phán xét đó về cho con người, kèm đúng phần thông tin còn thiếu. Đó là lúc H/R đang chạy đúng, và cũng là lúc ownership (§2) được thực thi: quyết định cuối có một owner đứng tên.
-
-## 6. "H trước hay T/A trước?" — tùy bạn đang hỏi theo nghĩa nào
-
-Câu hỏi này hay gây rối, vì chữ "trước" có ba nghĩa, mỗi nghĩa dẫn tới một đáp án:
-
-- **Tài liệu nên nhấn mạnh điều gì?** → **H** — mục tiêu và phán xét của con người là gốc (vì sao H là gốc: §2).
-- **Trong một lượt trao đổi, cái gì xuất hiện trước?** → **R** — AI suy luận xong, con người mới phán xét dựa trên đó.
-- **Mới bắt đầu thì nên tập cái nào trước?** → **T/A** — vì nó rẻ, dễ, và làm nền cho các lớp sau.
-
-Ba đáp án không hề mâu thuẫn — chúng trả lời ba câu hỏi khác nhau. (Lý do theo tầng đòn bẩy: xem R1.)
 
 ## Tham khảo: toàn bộ lợi ích kỳ vọng
 
@@ -152,9 +129,6 @@ Ba đáp án không hề mâu thuẫn — chúng trả lời ba câu hỏi khác
   - **Công việc tích lại thành tài sản**: phần output đã kiểm chứng dồn lại thành vốn tri thức dùng lại được, thay vì thành nợ kỹ thuật phải dọn về sau.
   - Cơ chế và điều kiện đầy đủ: xem `D-01 §1/§7`.
 
-> **Lưu ý — "trách nhiệm không bị loãng" đã chuyển chỗ (v0.9).** Trước đây mục này liệt kê nó như một *lợi ích-hệ quả*. Thực ra nó là **điều kiện nền** (ownership, §2) làm cho các lợi ích trên *có giá trị*, chứ không phải kết quả chảy ra từ chúng — nên đã đưa lên §2 và đặc tả thành **Năng lực 6** ở `D-05`. Để lại con trỏ ở đây cho khỏi tìm nhầm.
-
------
 -----
 
 # [R] — Phần kiểm chứng (để rà soát và chia sẻ; đọc nhanh có thể bỏ qua)
