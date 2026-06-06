@@ -1,10 +1,7 @@
 # Phát huy tối đa thể thống nhất Người + AI — Bộ nguyên tắc H/R
 
-> **v0.11** · bản nháp · Lớp framing của bộ nguyên tắc. Đọc khối **[H]** (đủ để hiểu và quyết); khối **[R]** ở cuối chỉ để rà soát.
->
 > `[A]` *Tiêu đề nói **đích nhắm tới**, chưa phải kết quả đã kiểm chứng — cần quan sát thực tế khi áp dụng.*
 
------
 -----
 
 # [H] — Dành cho bạn: hiểu và ra quyết định
