@@ -1,14 +1,8 @@
-# Mô hình 2y2x (bản công khai) — tăng trưởng mũ giữ bằng cấu trúc và chính trực, không phải con số giữ bằng quyết tâm
+# Mô hình 2y2x — tăng trưởng mũ giữ bằng cấu trúc và chính trực
 
-> Trình bày lại theo bộ nguyên tắc **H/R** (`D-00` §3). Đọc khối **[H]** là đủ để hiểu và quyết có nên dùng mô hình này; khối **[R]** ở cuối chỉ để rà soát suy luận và giả định.
->
-> `[H]` = phần dành cho người ra quyết định · `[R]` = phần kiểm chứng để audit · `T/A` = nhãn độ tin của từng claim (**T** = đã kiểm chứng / suy ra chắc; **A** = đích nhắm tới, *chưa* phải kết quả đã quan sát).
->
-> `2y2x` đọc đầy đủ là: **cứ sau 2 năm (2y) thì nhân đôi — gấp 2 lần (2x)** — rồi lặp lại liên tục thành một đường cong mũ với nhịp thời gian co giãn (2y2x → 4y4x → 6y8x → 8y16x…). Đường cong (mũ) là bất biến; *thời gian* qua mỗi nấc thì không. Từ đây trong tài liệu dùng dạng gọn "2y2x".
->
-> `[A]` *Mục tiêu nhân đôi nói trên là **đích nhắm tới**, chưa phải kết quả đã kiểm chứng. Đây là bản **canonical/tổng quát**: mô hình có thể được host bởi nhiều bộ nguyên lý và nhiều mô hình kinh doanh khác nhau; một bản tự-đánh-giá gắn nhãn T/A đọc qua một charter cụ thể là **view dẫn xuất** từ bản này, không phải bản gốc.*
-
------
+> `2y2x` đọc đầy đủ là: **cứ sau 2 năm (2y) thì nhân đôi thu nhập (2x)** — rồi lặp lại liên tục thành một đường cong mũ với nhịp thời gian co giãn (2y2x → 4y4x → 6y8x → 8y16x…). Đường cong (mũ) là bất biến; *thời gian* qua mỗi nấc thì không. Từ đây trong tài liệu dùng dạng gọn "2y2x".
+> 
+> `[A]` *Mục tiêu nhân đôi nói trên là **đích nhắm tới**, chưa phải kết quả đã kiểm chứng. 
 -----
 
 # [H] — Dành cho người đọc: hiểu và đánh giá mô hình
@@ -45,8 +39,8 @@ Lớp công khai này có hai nhiệm vụ: mời phản biện độc lập và
 
 **Mổ xẻ các giả định gốc (xếp theo rủi ro giảm dần — bảng đầy đủ kèm cách kiểm chứng ở R2):**
 
-- Mô hình có thật sự đủ giữ *chính người vận hành* khỏi drift mục tiêu qua các chu kỳ không? [rủi ro cao nhất — tự tham chiếu: người tin nó cũng là người sẽ tháo van khi mỏi mà không nhận ra]
-- Nguồn tạo giá trị có theo kịp đường cong mũ qua nhiều nấc không? [rủi ro cao — điều kiện tài chính nền tảng nhất; nếu không, người vận hành bị buộc phải hạ đường cong]
+- Mô hình có thật sự đủ giữ *chính người vận hành* khỏi drift mục tiêu qua các chu kỳ không? [rủi ro cao nhất]
+- Nguồn tạo giá trị có theo kịp đường cong mũ qua nhiều nấc không? [rủi ro cao]
 - "Người giỏi thì pull được" có đúng không, hay pull đang đo may mắn đoán mò vì chưa định nghĩa "mặt bằng thông tin tối thiểu"? [rủi ro trung bình]
 - Nhịp 2 năm có vô tình rút ngắn tầm nhìn vận hành về ngắn hạn không, dù đường cong là dài hạn? [rủi ro trung bình]
 - Mong muốn nhân đôi mỗi 2 năm có tạo động lực cho phần lớn người giỏi, hay một bộ phận chỉ muốn ổn định và 2y2x tạo *lực chống*? [rủi ro trung bình]
@@ -84,7 +78,6 @@ Lớp công khai này có hai nhiệm vụ: mời phản biện độc lập và
 - Đội tự sàng lọc: người đồng pha và pull được tự ở lại, người lệch tự rời — mà không cần điều khiển hành vi từ trên.
 - Drift bị phát hiện sớm nhờ lịch sử bất biến; trách nhiệm và niềm tin được xác nhận qua từng nấc thay vì bốc hơi.
 
------
 -----
 
 # [R] — Phần kiểm chứng (để rà soát và chia sẻ; đọc nhanh có thể bỏ qua)
